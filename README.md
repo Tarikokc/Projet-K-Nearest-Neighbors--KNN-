@@ -7,10 +7,18 @@ Le but est d'analyser un jeu de données, construire un modèle de prédiction e
 ## Structure du Projet
 ```
 projet_knn/
-├── EDA.ipynb          # Analyse des données
-├── Model.ipynb        # Modèle sklearn
-├── KNN_scratch.ipynb  # Implémentation KNN
-└── README.md
+├── data/                      
+│   └── dataset.csv           # Vos données
+│
+├── notebooks/                 
+│   ├── 1_EDA.ipynb          # Analyse des données
+│   ├── 2_Model.ipynb        # Modèle sklearn
+│   └── 3_KNN_scratch.ipynb  # Implémentation KNN
+│
+├── knn.py                    # Code source KNN
+├── requirements.txt          # Liste des packages
+└── README.md                # Documentation
+
 ```
 
 ## Étapes du Projet
